@@ -1,7 +1,6 @@
 /*import { useSession, getSession } from 'next-auth/react' */
-import Head from 'next/head';
-import Header from '../components/Header';
-/*import Login from "../components/Login"; */
+import Head from 'next/head'
+import Header from '../components/Header'
 import Sidebar from '../components/Sidebar';
 
 export default function Home() {
@@ -17,7 +16,7 @@ export default function Home() {
 
 
 
-      <main className="flex">
+      <main>
         <Sidebar />
         {/* Feed */}
         {/* Widgets */} 

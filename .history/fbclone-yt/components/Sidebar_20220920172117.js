@@ -1,7 +1,6 @@
 /*import {useSession} from "next-auth/client"; */
 import {
     ChevronDownIcon,
-    ShoppingBagIcon,
     ShoppinggBagIcon,
     UserGroupIcon,
     }from "@heroicons/react/outline";
@@ -20,12 +19,12 @@ function Sidebar() {
     <div className="p-2 mt-5 max-w-[600px] xl:min-w-[300px]">
 
         <SidebarRow Icon={UsersIcon} title="Friends" />
-        <SidebarRow Icon={UserGroupIcon} title="Grups" />
-        <SidebarRow Icon={ShoppingBagIcon} title="Marketplace" />
-        <SidebarRow Icon={DesktopComputerIcon} title="Watch" />
-        <SidebarRow Icon={CalenderIcon} title="Events" />
-        <SidebarRow Icon={ClockIcon} title="Memories" />
-        <SidebarRow Icon={ChevronDownIcon} title="See More" />
+        <SidebarRow Icon={UsersIcon} title="Grups" />
+        <SidebarRow Icon={UsersIcon} title="Marketplace" />
+        <SidebarRow Icon={UsersIcon} title="Watch" />
+        <SidebarRow Icon={UsersIcon} title="Events" />
+        <SidebarRow Icon={UsersIcon} title="Memories" />
+        <SidebarRow Icon={UsersIcon} title="See More" />
     </div>
     );
 }
